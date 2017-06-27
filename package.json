@@ -6,7 +6,8 @@
   "license": "BSD-3-Clause",
   "dependencies": {
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "recharts": "^1.0.0-alpha.1"
   },
   "devDependencies": {
     "husky": "^0.14.1",
