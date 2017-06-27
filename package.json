@@ -1,7 +1,9 @@
 {
   "name": "status-board",
   "version": "0.1.0",
-  "private": false,
+  "repository": "https://github.com/mckelvey/status-board",
+  "private": true,
+  "license": "BSD-3-Clause",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
@@ -10,11 +12,12 @@
     "husky": "^0.14.1",
     "lint-staged": "^4.0.0",
     "prettier": "^1.5.0",
-    "react-scripts": "1.0.7"
+    "react-scripts": "1.0.7",
+    "react-snapshot": "^1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && react-snapshot",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "precommit": "lint-staged"
